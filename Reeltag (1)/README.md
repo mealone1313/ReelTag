@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/34759911/README.md)
 # Reeltag
 
 Reeltag is a desktop app for organizing a video library with searchable tags.
@@ -7,7 +8,6 @@ files.
 ## Requirements
 
 - Python 3 with Tkinter
-- A mounted VeraCrypt volume at `/media/veracrypt1` for the library database
 - FFmpeg (`ffmpeg` and `ffprobe`) for video thumbnails and runtime summaries
 - VLC or mpv for the live-tagging extensions and running-playlist controls
 
@@ -43,28 +43,30 @@ calculate the total runtime of search results.
 
 ## Use the library
 
-1. Unlock and mount the VeraCrypt volume at `/media/veracrypt1`.
-2. Open Reeltag and choose **Add videos to library…**.
-3. Enter a tag or tags in the tag field, separated by commas, and use **Tag
+1. Open Reeltag and choose **Add videos to library…**.
+2. Enter a tag or tags in the tag field, separated by commas, and use **Tag
    actions** to add them to the current video or selected videos.
-4. Search tags in the **Search tags** field:
+3. Search tags in the **Search tags** field:
    - Separate terms with commas to match videos with **any** of the terms.
    - Join terms with `AND` to require **all** terms. For example:
      `comedy AND drama`.
-5. Select **Search** or press Enter. Matching videos appear in the results
+4. Select **Search** or press Enter. Matching videos appear in the results
    table, with thumbnails when FFmpeg is available. The table shows the result
    count and combined runtime as well.
-6. Use **Shuffle results** to randomize the current results table, or **Play all
+5. Use **Shuffle results** to randomize the current results table, or **Play all
    displayed videos** to play its contents in the displayed order.
 
 Use **Clear** to clear the search and its imported-video filter. The database
-and tags are stored at:
+and tags are stored in `~/.local/share/reeltag/.video-tags.sqlite3` (or
+`$XDG_DATA_HOME/reeltag/.video-tags.sqlite3` when `XDG_DATA_HOME` is set).
+If the legacy database is present and the new database does not yet exist,
+Reeltag copies the legacy data from:
 
 ```text
 /media/veracrypt1/.video-tags.sqlite3
 ```
 
-Keep the volume mounted while using the library.
+VeraCrypt is not required for normal use.
 
 ## Live tagging
 
