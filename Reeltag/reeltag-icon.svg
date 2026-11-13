@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect x="22" y="20" width="468" height="466" rx="112" fill="#69241d"/>
+  <rect x="37" y="35" width="438" height="436" rx="98" fill="none" stroke="#ffdaaa" stroke-opacity=".18" stroke-width="3"/>
+  <rect x="48" y="46" width="416" height="414" rx="91" fill="none" stroke="#000" stroke-opacity=".12" stroke-width="2"/>
+  <circle cx="256" cy="238" r="145" fill="#251e1d" stroke="#eb8f42" stroke-width="13"/>
+  <circle cx="256" cy="238" r="128" fill="none" stroke="#ffecce" stroke-opacity=".39" stroke-width="3"/>
+  <g fill="#ffe0b5" stroke="#0a0a0a" stroke-opacity=".58" stroke-width="4">
+    <circle cx="256" cy="154" r="34"/>
+    <circle cx="335.9" cy="211.8" r="34"/>
+    <circle cx="304.3" cy="304" r="34"/>
+    <circle cx="207.7" cy="304" r="34"/>
+    <circle cx="176.1" cy="211.8" r="34"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2">
+    <circle cx="256" cy="154" r="27"/>
+    <circle cx="335.9" cy="211.8" r="27"/>
+    <circle cx="304.3" cy="304" r="27"/>
+    <circle cx="207.7" cy="304" r="27"/>
+    <circle cx="176.1" cy="211.8" r="27"/>
+  </g>
+  <circle cx="256" cy="238" r="28" fill="#eb8f42" stroke="#ffdda7" stroke-width="3"/>
+  <circle cx="256" cy="238" r="11" fill="#251e1d"/>
+  <g fill="#ffe0b5">
+    <circle cx="256" cy="105" r="3"/>
+    <circle cx="322.5" cy="129.6" r="3"/>
+    <circle cx="364.4" cy="188.1" r="3"/>
+    <circle cx="364.4" cy="287" r="3"/>
+    <circle cx="322.5" cy="346.4" r="3"/>
+    <circle cx="256" cy="371" r="3"/>
+    <circle cx="189.5" cy="346.4" r="3"/>
+    <circle cx="147.6" cy="287" r="3"/>
+    <circle cx="147.6" cy="188.1" r="3"/>
+    <circle cx="189.5" cy="129.6" r="3"/>
+  </g>
+  <rect x="49" y="316" width="414" height="80" fill="#131213" stroke="#f4a656"/>
+  <path d="M49 319h414M49 393h414" fill="none" stroke="#ffca82" stroke-width="4"/>
+  <g fill="#ffe1b8">
+    <rect x="63" y="326" width="17" height="11" rx="4"/>
+    <rect x="97" y="326" width="17" height="11" rx="4"/>
+    <rect x="131" y="326" width="17" height="11" rx="4"/>
+    <rect x="165" y="326" width="17" height="11" rx="4"/>
+    <rect x="199" y="326" width="17" height="11" rx="4"/>
+    <rect x="233" y="326" width="17" height="11" rx="4"/>
+    <rect x="267" y="326" width="17" height="11" rx="4"/>
+    <rect x="301" y="326" width="17" height="11" rx="4"/>
+    <rect x="335" y="326" width="17" height="11" rx="4"/>
+    <rect x="369" y="326" width="17" height="11" rx="4"/>
+    <rect x="403" y="326" width="17" height="11" rx="4"/>
+    <rect x="437" y="326" width="17" height="11" rx="4"/>
+    <rect x="63" y="375" width="17" height="11" rx="4"/>
+    <rect x="97" y="375" width="17" height="11" rx="4"/>
+    <rect x="131" y="375" width="17" height="11" rx="4"/>
+    <rect x="165" y="375" width="17" height="11" rx="4"/>
+    <rect x="199" y="375" width="17" height="11" rx="4"/>
+    <rect x="233" y="375" width="17" height="11" rx="4"/>
+    <rect x="267" y="375" width="17" height="11" rx="4"/>
+    <rect x="301" y="375" width="17" height="11" rx="4"/>
+    <rect x="335" y="375" width="17" height="11" rx="4"/>
+    <rect x="369" y="375" width="17" height="11" rx="4"/>
+    <rect x="403" y="375" width="17" height="11" rx="4"/>
+    <rect x="437" y="375" width="17" height="11" rx="4"/>
+  </g>
+  <g stroke="#eb9348" stroke-opacity=".67" stroke-width="2">
+    <path d="M130 324v64M211 324v64M292 324v64M373 324v64"/>
+  </g>
+  <rect x="117" y="340" width="278" height="32" rx="8" fill="#131213"/>
+  <text x="256" y="356" text-anchor="middle" dominant-baseline="central"
+        font-family="Comfortaa, DejaVu Sans, Arial, sans-serif" font-size="40"
+        font-weight="700" fill="#ffe5be">ReelTag</text>
+</svg>
